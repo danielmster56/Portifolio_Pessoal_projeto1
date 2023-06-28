@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./assets/backgroundimage.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #EEEEEE;
+}
+.cabecalho{    
+    padding: 1% 0% 0% 15%;
+}
+.cabecalho__menu{  
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link{
+    color:#dfdfdf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1,5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px
+}
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: 'Krona one', sans-serif;
+}
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Krona one', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.apresentacao__links__navegacao{
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20.5px 0;
+    text-decoration: none;
+    color: #272727;
+    font-family: 'Montserrat', sans-serif;
+}
+.cabecalho__menu__link:hover{
+   color: #ffffff;
+}
+.apresentacao__links__navegacao:hover{
+    background-color: #d2e5ff;
+}
+.rodape{
+    color: #272727;
+    background-color: #cfcfcf;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0,8rem;
+    font-weight: 400;
+}
+.rodape__link{
+    font-size: 0,8rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #dfdfdf;
+    border-radius: 8px;
+    color: #000000;
+    text-decoration: none;   
+}
+
+.imagem_perfil{
+    width: 50%;
+}
+
+@media(max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+        font-size: 1,5rem;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;  
+    }
+
+}
