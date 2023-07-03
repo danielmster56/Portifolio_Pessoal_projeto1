@@ -1,4 +1,4 @@
-Olá, Bem vindo ao meu projeto de portfólio.
+<h1>Olá, Bem vindo ao meu projeto de portfólio.</h1>
 
 ![image](https://github.com/danielmster56/portifolio_1/assets/93445644/4c66d827-3e7c-4e58-b549-9d1e18a3a944)
 
