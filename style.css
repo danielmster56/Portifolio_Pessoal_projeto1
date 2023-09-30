@@ -55,6 +55,8 @@ body{
     gap: 10px;
 }
 .apresentacao__links__subtitulo{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     font-family: 'Krona one', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
@@ -83,6 +85,9 @@ body{
     box-shadow: 0 0 5px #EEE;
 }
 .rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     color: #272727;
     background-color: #cfcfcf;
     padding: 18px;
